@@ -2,7 +2,7 @@
 
 A Cisco Packet Tracer network-design project for a metropolitan healthcare system connecting six medical units: Main Hospital (MH), Diagnostic Center (DC), Emergency Response Unit (ERU), Research Institute (RI), Pharmacy Hub (PH), and Remote Health Clinic (RHC).
 
-> **Project status:** The Packet Tracer file and supplied topology/assignment PDFs are included in the project package. The design requirements below are taken from the supplied project brief. Individual configurations and end-to-end tests have not yet been independently verified, so features are described as project requirements/design goals rather than confirmed test results.
+> **Project status:** The original Packet Tracer simulation is uploaded. The topology and assignment PDFs are not yet uploaded. The design requirements below are taken from the supplied project brief. Individual configurations and end-to-end tests have not yet been independently verified, so features are described as requirements/design goals rather than confirmed test results.
 
 ## Project Overview
 
@@ -45,29 +45,23 @@ The proposed network supports communication among hospitals, clinics, research f
 - PH and RHC: dedicated DHCP servers.
 - MH and RI: static IP addressing for all devices.
 
+## Project File
+
+**Cisco Packet Tracer simulation:** [SmartCity_Healthcare_Network.pkt](./SmartCity_Healthcare_Network.pkt)
+
+Download the `.pkt` file from the repository and open it with Cisco Packet Tracer.
+
 ## Repository Contents
 
 ```text
 SmartCity-Healthcare-Network-Design/
 ├── README.md
-├── Packet-Tracer/
-│   └── SmartCity_Healthcare_Network.pkt
-├── Network-Topology/
-│   └── Network_Topology.pdf
-├── Project-Brief/
-│   └── SmartCity_Healthcare_Project_Brief.pdf
-├── Documentation/
-│   └── IMPLEMENTATION_NOTES.md
-└── Screenshots/
-    └── Network_Topology_Preview.png
+├── SmartCity_Healthcare_Network.pkt
+└── Documentation/
+    └── IMPLEMENTATION_NOTES.md
 ```
 
-## How to Open
-
-1. Install Cisco Packet Tracer.
-2. Download or clone this repository.
-3. Open `Packet-Tracer/SmartCity_Healthcare_Network.pkt` in Cisco Packet Tracer.
-4. Refer to the topology PDF and project brief when exploring the design.
+Additional topology diagrams, the original assignment brief, and evidence screenshots can be added as they are uploaded.
 
 ## Validation Checklist
 

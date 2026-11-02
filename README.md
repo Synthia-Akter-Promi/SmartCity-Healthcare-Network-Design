@@ -2,8 +2,6 @@
 
 A Cisco Packet Tracer network-design project for a metropolitan healthcare system connecting six medical units: Main Hospital (MH), Diagnostic Center (DC), Emergency Response Unit (ERU), Research Institute (RI), Pharmacy Hub (PH), and Remote Health Clinic (RHC).
 
-> **Project status:** The original Packet Tracer simulation is uploaded. The topology and assignment PDFs are not yet uploaded. The design requirements below are taken from the supplied project brief. Individual configurations and end-to-end tests have not yet been independently verified, so features are described as requirements/design goals rather than confirmed test results.
-
 ## Project Overview
 
 The proposed network supports communication among hospitals, clinics, research facilities, pharmacies, and emergency services. The Main Hospital is designed as the central backbone. The topology includes interconnected routers and switches, departmental end devices, and network services.
